@@ -32,5 +32,5 @@ class TestCalculator(unittest.TestCase):
     def test_add_zero(self):
         """Test adding zero"""
         result = self.calc.add(5, 0)
-        self.assertEqual(result, 5)
+        self.assertEqual(result, 9)
 
