@@ -1,0 +1,10 @@
+# requirements.txt
+# No external dependencies needed for this basic demo
+# Python's built-in unittest module is sufficient
+
+# For more advanced projects, you might include:
+# pytest>=7.0.0
+# flake8>=5.0.0
+# black>=22.0.0
+# coverage>=6.0.0
+
