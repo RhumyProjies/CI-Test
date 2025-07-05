@@ -23,4 +23,14 @@ class TestCalculator(unittest.TestCase):
         """Test adding two positive numbers"""
         result = self.calc.add(2, 3)
         self.assertEqual(result, 5)
-        
+
+    def test_add_negative_numbers(self):
+        """Test adding negative numbers"""
+        result = self.calc.add(-1, -1)
+        self.assertEqual(result, -2)
+    
+    def test_add_zero(self):
+        """Test adding zero"""
+        result = self.calc.add(5, 0)
+        self.assertEqual(result, 5)
+
