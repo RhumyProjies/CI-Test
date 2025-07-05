@@ -23,11 +23,11 @@ jobs:
         python-version: '3.9'
 
     - name: Run tests
-      runs: |
+      run: |
         python -m unittest discover tests -v
 
     - name: Check Python Syntax
-      runs: |
+      run: |
         python -m py_compile src/*.py tests/*.py
     
     
