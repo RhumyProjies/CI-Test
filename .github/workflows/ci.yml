@@ -1,0 +1,8 @@
+# github/workflows/ci.yml
+name: CI Pipeline
+
+on: 
+  push:
+    branches: [ main ]
+  pull_request:
+    branch: [ main ]
