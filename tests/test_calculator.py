@@ -34,3 +34,17 @@ class TestCalculator(unittest.TestCase):
         result = self.calc.add(5, 0)
         self.assertEqual(result, 5)
 
+    def test_subtract_numbers(self):
+        """Test subtracting two positive numbers"""
+        result = self.calc.add(5, 3)
+        self.assertEqual(result, 2)
+        
+    def test_multiply_numbers(self):
+        """Test multiplying two positive numbers"""
+        result = self.calc.add(2, 3)
+        self.assertEqual(result, 6)
+        
+    def test_divide_numbers(self):
+        """Test dividing two positive numbers"""
+        result = self.calc.add(10, 2)
+        self.assertEqual(result, 5)        
